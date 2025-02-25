@@ -1,13 +1,13 @@
 public class IdleState implements VendingMachineState {
     @Override
-    public void selectItem(VendingMachine machine) {
-        System.out.println("Item selected");
+    public void selectItem(VendingMachine machine, String item) {
+        System.out.println("Item selected: " + item);
         machine.setState(new ItemSelectedState());
     }
 
     @Override
-    public void insertCoin(VendingMachine machine) {
-        System.out.println("Please select an item first");
+    public void insertCoin(VendingMachine machine, double amount) {
+        System.out.println("Cannot insert coins. Please select an item first");
     }
 
     @Override
