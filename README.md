@@ -43,5 +43,5 @@ The system currently relies on conditional statements within the `VendingMachine
    - Delegate actions like selectItem(), insertCoin(), dispenseItem(), and setOutOfOrder() to the current state object.
 
 # UML Class Diagram
-![StatePatternUML](https://github.com/user-attachments/assets/1562d608-dab0-4123-a994-54d83dddecbe)
+![StatePatternUML](https://github.com/user-attachments/assets/a22c8e70-4c85-4ff3-9c2b-f69237fa690b)
 
